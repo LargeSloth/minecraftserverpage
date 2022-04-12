@@ -4,6 +4,7 @@
   font-size: 30px;
   font-family: fantasy;
 }
+
 .players {
   color: black;
   text-align: center;
@@ -16,6 +17,12 @@
   font-size: 24px;
   font-family: fantasy;
   font-style: oblique;
+}
+
+.hunterstats {
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
 }
 
 body {
