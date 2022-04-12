@@ -1,38 +1,42 @@
-.Sex-Orgy-Minecraft-Server {
+.The-Boys-Minecraft-Server {
   color: black;
   text-align: center;
-  font-size: 30px;
+  font-size: 55px;
   font-family: fantasy;
-}
-
-.players {
-  color: black;
-  text-align: center;
-  font-size: 28px;
-  font-family: fantasy;
+  padding: 25px;
 }
 
 .subpages {
   text-align: center;
-  font-size: 24px;
+  font-size: 50px;
   font-family: fantasy;
   font-style: oblique;
 }
 
+.Blog {
+ text-align: center;
+ font-size: 50px;
+ font-style: oblique;
+ font-family: oblique;
+ margin-top: 300px;
+ padding: 40px;
+}
+
 body {
   background-image: url("./images/minecraftbackground.jpeg");
-  background-color: #cccccc;
-  height: auto;
-  width: auto;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: #a0ed58;
 }
 
 a {
-  color: blue;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: green;
-  font-size: 27px;
+  color: magenta;
+  font-size: 52px;
   font-family: fantasy;
 }
