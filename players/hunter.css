@@ -1,0 +1,33 @@
+.hunterstats {
+  color: black;
+  font-size: 35px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+body {
+  background-image: url(../images/largeslothbase.jpeg);
+  height: auto;
+  width: auto;
+}
+
+.indepthstatlink {
+  font-size: 24px;
+  font-family: fantasy;
+  font-style: oblique;
+  text-align: center;
+}
+
+.home{
+  text-align: center;
+  font-size: 26px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}
