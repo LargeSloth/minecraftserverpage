@@ -25,10 +25,10 @@ body {
 }
 
 a {
-  color: blue;
+  color: green;
   text-decoration: none;
 }
 
 a:hover {
-  color: green;
+  color: magenta;
 }
