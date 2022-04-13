@@ -1,10 +1,39 @@
-/* Body */
+
+.image {
+  text-align: center;
+}
 
 body {
   background-color: #cccccc;
 }
 
-/* Body */
+
+
+/* Home */
+
+.tolandingpage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home {
+  text-align: center;
+  font-size: 26px;
+  font-style: oblique;
+}
+
+.home a {
+  color: black;
+  text-decoration: none;
+}
+
+.home a:hover {
+  font-size: 26px;
+  color: magenta;
+}
+
+/* Home */
 
 /* Header */
 
@@ -23,7 +52,7 @@ body {
 }
 
 .huntersheader .header {
-  border: 2px solid red;
+
 }
 
 /* Header */
@@ -47,7 +76,7 @@ body {
 }
 
 .statistics .mobkills {
-  border: 2px solid red;
+
 }
 
 .mobkills a {
@@ -62,7 +91,7 @@ body {
 }
 
 .statistics .blocksmined {
-  border: 2px solid red;
+
 }
 
 .blocksmined a {
@@ -76,7 +105,7 @@ body {
 }
 
 .statistics .deaths {
-  border: 2px solid red;
+
 }
 
 .deaths a {
@@ -90,30 +119,3 @@ body {
 }
 
 /* Statistics */
-
-/* Home */
-
-.tolandingpage {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.home {
-  text-align: center;
-  font-size: 26px;
-  font-style: oblique;
-  border: 2px solid red;
-}
-
-.home a {
-  color: black;
-  text-decoration: none;
-}
-
-.home a:hover {
-  font-size: 26px;
-  color: magenta;
-}
-
-/* Home */
