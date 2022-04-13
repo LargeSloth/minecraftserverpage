@@ -1,8 +1,13 @@
+* {
+  border: 2px solid red;
+}
+
 .The-Boys-Minecraft-Server {
   color: black;
   text-align: center;
   font-size: 55px;
-  font-family: fantasy;
+  font-family: oblique;
+  font-style: oblique;
   padding: 25px;
 }
 
@@ -19,6 +24,18 @@
   font-size: 50px;
   text-align: center;
   font-style: oblique;
+}
+
+.flex-container .ben {
+
+}
+
+.flex-container .gavin {
+
+}
+
+.flex-container .hunter {
+
 }
 
 .Blog {
