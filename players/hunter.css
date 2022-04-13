@@ -8,13 +8,21 @@ body {
 
 /* Header */
 
-.hunterstats {
-  color: black;
-  font-size: 35px;
-  font-family: fantasy;
+.huntersheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.huntersheader div {
   text-align: center;
-  padding: 5px;
-  margin: 5px;
+  font-size: 50px;
+  font-style: oblique;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.huntersheader .header {
   border: 2px solid red;
 }
 
@@ -22,22 +30,23 @@ body {
 
 /* Statistics */
 
-.flex-container {
+.statistics {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.flex-container div {
+.statistics div {
   border: 2px;
   height: 100px;
-  width: 250px;
-  flex: 1 1 0%;
+  width: 450px;
   font-size: 50px;
   text-align: center;
   font-style: oblique;
 }
 
-.flex-container .mobkills {
+.statistics .mobkills {
   border: 2px solid red;
 }
 
@@ -52,7 +61,7 @@ body {
   font-size: 52px;
 }
 
-.flex-container .blocksmined {
+.statistics .blocksmined {
   border: 2px solid red;
 }
 
@@ -66,7 +75,7 @@ body {
   font-size: 52px;
 }
 
-.flex-container .deaths {
+.statistics .deaths {
   border: 2px solid red;
 }
 

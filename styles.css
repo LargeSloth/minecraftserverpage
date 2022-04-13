@@ -1,5 +1,5 @@
-* {
-  border: 2px solid red;
+body {
+  background-color: #cccccc;
 }
 
 .The-Boys-Minecraft-Server {
@@ -45,14 +45,6 @@
  font-family: oblique;
  margin-top: 300px;
  padding: 40px;
-}
-
-body {
-  background-image: url("./images/island.jpeg");
-  background-size: cover;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-color: #526e70;
 }
 
 a {
