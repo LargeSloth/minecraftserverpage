@@ -5,14 +5,14 @@ body {
 .time-display {
   text-align: center;
   font-size: 23px;
-  font-family: oblique;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
 }
 
 .day-Display {
   text-align: center;
   font-size: 25px;
-  font-family: oblique;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
 }
 
@@ -20,17 +20,17 @@ body {
   color: black;
   text-align: center;
   font-size: 55px;
-  font-family: oblique;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
   padding: 25px;
 }
 
-.flex-container {
+.name-Links {
   display: flex;
   flex-direction: row;
 }
 
-.flex-container div {
+.name-Links div {
   border: 2px;
   height: 100px;
   width: 250px;
@@ -38,13 +38,14 @@ body {
   font-size: 50px;
   text-align: center;
   font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .Blog {
  text-align: center;
  font-size: 50px;
  font-style: oblique;
- font-family: oblique;
+ font-family: Arial, Helvetica, sans-serif;
  margin-top: 300px;
  padding: 40px;
 }
@@ -57,5 +58,5 @@ a {
 a:hover {
   color: magenta;
   font-size: 52px;
-  font-family: fantasy;
+  font-family: Arial, Helvetica, sans-serif;
 }

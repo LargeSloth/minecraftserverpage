@@ -1,0 +1,43 @@
+body {
+    background-color: #cccccc;
+}
+
+
+
+.back-to-page {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+}
+
+.back {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding-right: 35px;
+}
+
+.back a {
+    color:black;
+    text-decoration: none;
+}
+
+.back a:hover {
+    color: magenta;
+}
+
+.home {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding-left: 35px;
+}
+
+.home a {
+    color: black;
+    text-decoration: none;
+}
+
+.home a:hover {
+    color: magenta;
+}
