@@ -1,11 +1,20 @@
-
-.image {
-  text-align: center;
-  background-size: cover;
+body {
+  background: linear-gradient(-45deg, #794a3b, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
-body {
-  background-color: #cccccc;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
@@ -40,6 +49,7 @@ body {
 /* Header */
 
 .hunters-header {
+  padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -59,6 +69,7 @@ body {
 /* Statistics */
 
 .statistics {
+  padding-top: 25px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -66,7 +77,6 @@ body {
 }
 
 .statistics div {
-  border: 2px;
   height: 100px;
   width: 450px;
   font-size: 50px;

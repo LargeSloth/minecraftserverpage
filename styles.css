@@ -1,5 +1,20 @@
 body {
-  background-color: #cccccc;
+  background: linear-gradient(-45deg, #794a3b, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .time-display {
@@ -41,12 +56,32 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.world-map {
+  display: flex;
+  justify-content: center;
+}
+
+.world-map div {
+  margin: 2px;
+  border: 2px;
+  padding: 65px;
+  font-size: 50px;
+  text-align: center;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
 .Blog {
+ display: flex;
+ flex: 1 1 0%;
+ justify-content: center;
  text-align: center;
  font-size: 50px;
  font-style: oblique;
  font-family: Arial, Helvetica, sans-serif;
- margin-top: 300px;
+ margin-top: 200px;
  padding: 40px;
 }
 
