@@ -1,47 +1,38 @@
 const time = new Date().getHours();
 if (time < 11 ) {
-    greeting = "Good Morning";
+    timeDisplay = "Good Morning";
 } else if (time < 18) {
-    greeting = "Good afternoon";
+    timeDisplay = "Good afternoon";
 } else {
-    greeting = "Good evening";
+    timeDisplay = "Good evening";
 }
-document.getElementById("timeDisplay").innerHTML = greeting;
+document.getElementById("timeDisplay").innerHTML = timeDisplay;
 
 
 const day = new Date().getDay();
-switch (day) {
-    
+switch (day) {   
     case 0:
-        greeting2 = "It's The Lords Day";
+        dayDisplay = "It's The Lords Day";
         break;
-
     case 1:
-        greeting2 = "It's Grody Monday";
+        dayDisplay = "It's Grody Monday";
         break;
-
     case 2:
-        greeting2 = "It's Tuesday";
+        dayDisplay = "It's Tuesday";
         break;
-
     case 3:
-        greeting2 = "It's Hump Day";
+        dayDisplay = "It's Hump Day";
         break;
-
     case 4:
-        greeting2 = "It's Thursday";
+        dayDisplay = "It's Thursday";
         break;
-
     case 5:
-        greeting2 = "It's Friday Friday Gotta Get Down On Friday";
+        dayDisplay = "It's Friday Friday Gotta Get Down On Friday";
         break;
-
     case 6:
-        greeting2 = "It's Saturday";
+        dayDisplay = "It's Saturday";
         break;
-
     default:
-        greeting2 = "We are screwed";
-    
+        dayDisplay = "We are screwed";   
 }
-document.getElementById("dayDisplay").innerHTML = greeting2;
+document.getElementById("dayDisplay").innerHTML = dayDisplay;
