@@ -4,7 +4,7 @@ function hour() {
     const hourDisplay = new Date().getHours();
     if (hourDisplay < 5) return "Go To Sleep"
     if (hourDisplay < 11) return "Good Morning"
-    if (hourDisplay < 15) return "Good Afternoon"
+    if (hourDisplay < 17) return "Good Afternoon"
     if (hourDisplay < 24) return "Good Evening"
 }
 document.getElementById("hourDisplay").innerHTML = hour();
