@@ -7,7 +7,7 @@ function hour() {
     if (hourDisplay < 17) return "Good Afternoon"
     if (hourDisplay < 24) return "Good Evening"
 }
-document.getElementById("hourDisplay").innerHTML = hour();
+document.getElementById("hourDisplay").innerText = hour();
 
 /* Displays day of the week and outputs string to html */
 function day() {
@@ -20,4 +20,4 @@ function day() {
     if (dayDisplay === 5) return "It's Friday Friday Gotta Get Down On Friday"
     if (dayDisplay === 6) return "It's Saturday"
 }
-document.getElementById("dayDisplay").innerHTML = day();
+document.getElementById("dayDisplay").innerText = day();
